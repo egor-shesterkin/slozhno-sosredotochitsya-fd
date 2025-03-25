@@ -12,10 +12,10 @@
   --main-color: #353430;
   --heading-color: #353430;
   --highlight-color: #353430;
-  --title-color: #FFC2E6;
-  --alternative-color: #FF8DCB;
-  --button-hover-color: rgba(50, 49, 45, 0.40);
-  --bg-color: rgba(255, 241, 247, 1);
+  --title-color: #ffc2e6;
+  --alternative-color: #ff8dcb;
+  --button-hover-color: rgba(50, 49, 45, 0.4);
+  --bg-color: #fff1f7;
 }
 
 .theme-light .page {
@@ -27,52 +27,16 @@
   display: none;
 }
 
-.theme-light .header__theme-menu-button_type_dark:hover {
-  outline: none;
-}
-
-.theme-light .header__theme-menu-button_type_auto:hover {
-  outline: none;
-}
-
-.theme-light .header__theme-menu-item:has(.header__theme-menu-button_type_dark:hover) {
-  outline: 1px solid var(--button-hover-color);
-}
-
-.theme-light .header__theme-menu-item:has(.header__theme-menu-button_type_auto:hover) {
-  outline: 1px solid var(--button-hover-color);
-}
-
-.theme-light .header__theme-menu-item:has(.header__theme-menu-button:disabled) {
-  outline: 1px solid var(--main-color);
-}
-
-.theme-light .header__theme-menu-item:has(.header__theme-menu-button_type_dark:focus-visible) {
-  border-bottom: 1px solid var(--main-color);
-}
-
-.theme-light .header__theme-menu-item:has(.header__theme-menu-button_type_auto:focus-visible) {
-  border-bottom: 1px solid var(--main-color);
-}
-
-.theme-light .header__theme-menu-item:has(.header__theme-menu-button_type_dark:focus-visible:hover) {
-  border-bottom: none;
-}
-
-.theme-light .header__theme-menu-item:has(.header__theme-menu-button_type_auto:focus-visible:hover) {
-  border-bottom: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
-  --main-color: #353430;
-  --heading-color: #353430;
-  --highlight-color: #353430;
-  --title-color: #FFC2E6;
-  --alternative-color: #FF8DCB;
-  --button-hover-color: rgba(50, 49, 45, 0.40);
-  --bg-color: rgba(255, 241, 247, 1);
-  --bg-img: url(../images/cover-image-light.png);
-  --record: none;
+    --main-color: #353430;
+    --heading-color: #353430;
+    --highlight-color: #353430;
+    --title-color: #ffc2e6;
+    --alternative-color: #ff8dcb;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
+    --bg-color: #fff1f7;
+    --bg-img: url(../images/cover-image-light.png);
+    --record: none;
   }
 }

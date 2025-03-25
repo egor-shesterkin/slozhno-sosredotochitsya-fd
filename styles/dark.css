@@ -9,13 +9,13 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --main-color: #FF0070;
+  --main-color: #ff0070;
   --bg-color: #000028;
   --heading-color: var(--bg-color);
-  --highlight-color: #F1B2CE;
-  --title-color: #DB00FF;
+  --highlight-color: #f1b2ce;
+  --title-color: #db00ff;
   --alternative-color: var(--main-color);
-  --button-hover-color: rgba(255, 0, 112, 0.40);
+  --button-hover-color: rgba(255, 0, 112, 0.4);
 }
 
 .theme-dark .page {
@@ -25,36 +25,4 @@
 
 .theme-dark .record {
   display: flex;
-}
-
-.theme-dark .header__theme-menu-button_type_light:hover {
-  outline: none;
-}
-
-.theme-dark .header__theme-menu-button_type_auto:hover {
-  outline: none;
-}
-
-.theme-dark .header__theme-menu-item:has(.header__theme-menu-button_type_light:hover) {
-  outline: 1px solid var(--button-hover-color);
-}
-
-.theme-dark .header__theme-menu-item:has(.header__theme-menu-button_type_auto:hover) {
-  outline: 1px solid var(--button-hover-color);
-}
-
-.theme-dark .header__theme-menu-item:has(.header__theme-menu-button_type_light:focus-visible) {
-  border-bottom: 1px solid var(--main-color);
-}
-
-.theme-dark .header__theme-menu-item:has(.header__theme-menu-button_type_auto:focus-visible) {
-  border-bottom: 1px solid var(--main-color);
-}
-
-.theme-dark .header__theme-menu-item:has(.header__theme-menu-button_type_light:focus-visible:hover) {
-  border-bottom: none;
-}
-
-.theme-dark .header__theme-menu-item:has(.header__theme-menu-button_type_auto:focus-visible:hover) {
-  border-bottom: none;
 }
